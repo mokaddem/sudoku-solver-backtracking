@@ -226,8 +226,8 @@ class Column(NxNGrid):
 
 
 def main():
-    sud = Sudoku("sudo16x16.txt")
     sud = Sudoku("sudo.txt")
+    #sud = Sudoku("sudo16x16.txt")
     print('Original:')
     print(sud)
     print('Solving...')
